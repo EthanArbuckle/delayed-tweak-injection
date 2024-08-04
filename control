@@ -1,0 +1,9 @@
+Package: com.ethanarbuckle.jb-detect-bypass
+Name: tweak detection bypass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: enable tweaks in apps that usually crash when they detect a tweak loader
+Maintainer: ethan arbuckle
+Author: ethan arbuckle
+Section: System
+Tag: role::developer

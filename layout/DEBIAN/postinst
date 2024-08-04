@@ -1,0 +1,11 @@
+#!/bin/sh
+
+chown root:wheel /var/jb/Library/LaunchDaemons/com.jb-detect-bypass.applaunchmond.plist
+chmod 644 /var/jb/Library/LaunchDaemons/com.jb-detect-bypass.applaunchmond.plist
+
+chown root:wheel /var/jb/usr/local/libexec/applaunchmond
+chmod 755 /var/jb/usr/local/libexec/applaunchmond
+
+launchctl load /var/jb/Library/LaunchDaemons/com.jb-detect-bypass.applaunchmond.plist 2> /dev/null
+
+exit 0

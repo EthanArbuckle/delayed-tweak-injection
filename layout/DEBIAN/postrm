@@ -1,0 +1,4 @@
+#!/bin/sh
+
+launchctl unload /var/jb/Library/LaunchDaemons/com.jb-detect-bypass.applaunchmond.plist 2> /dev/null
+exit 0
